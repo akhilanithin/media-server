@@ -1,0 +1,16 @@
+package-jon
+............................
+1. create folder for server
+2. create package.json file : npm init -y
+3. install json-server :  npm i json-server
+4. create .gitignore to ignore node_modules while adding to git
+5. create a db.json to store json data 
+6. create index.js file to define json server
+    -import json-server in index.js file 
+    -create a server for media player app
+    -set up path/route from json file 
+    -Return middlewares user by JSON server 
+    -set up port for running server 
+    -use middleware and router in server 
+    -to listern server for resolving request from client
+7. To run server project use command : npm start  ,add start command in  package.json script as "start" 'node index.js'
